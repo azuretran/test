@@ -1,1 +1,1 @@
-web: gunicorn django_deploy_test.wsgi:application
+web: gunicorn mysite.wsgi:application
